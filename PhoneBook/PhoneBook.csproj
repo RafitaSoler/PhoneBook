@@ -12,6 +12,10 @@
     <PackageReference Include="Spectre.Console" Version="0.57.2" />
   </ItemGroup>
 
+<ItemGroup>
+	<InternalsVisibleTo Include="PhoneBook.Tests" />
+</ItemGroup>
+
   <ItemGroup>
     <Folder Include="Logs\" />
   </ItemGroup>

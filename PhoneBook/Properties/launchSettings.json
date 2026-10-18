@@ -3,6 +3,10 @@
     "PhoneBook": {
       "commandName": "Project",
       "workingDirectory": "$(ProjectDir)"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
     }
   }
 }

@@ -11,9 +11,9 @@ namespace PhoneBook.Data
             if (!alreadyCreated) return;
 
             db.Contacts.AddRange(
-                new Contact { Name = "Joan", PhoneNumber = "555-0123" },
-                new Contact { Name = "Ana", PhoneNumber = "555-0456" },
-                new Contact { Name = "Marc", PhoneNumber = "555-0789" });
+                new Contact { Name = "Joan", PhoneNumber = "555-0123", Email = "joan@gmail.com" },
+                new Contact { Name = "Ana", PhoneNumber = "555-0456", Email = "ana@hotmail.com"},
+                new Contact { Name = "Marc", PhoneNumber = "555-0789", Email = "marc@yahoo.com"});
             db.SaveChanges();
         }
     }

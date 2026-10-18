@@ -12,7 +12,7 @@ namespace PhoneBook.Data
         {
             options.UseSqlite("Data Source=phone-book.db;Foreign Keys=true");
             options.LogTo(
-                message => File.AppendAllText("Logs\\log.txt", message + Environment.NewLine),
+                message => File.AppendAllText("log.txt", message + Environment.NewLine),
                 [DbLoggerCategory.Database.Command.Name],
                 LogLevel.Information);
             options.EnableSensitiveDataLogging();
