@@ -1,4 +1,4 @@
-﻿# Flashcards
+﻿# Phonebook
 
 A simple console-based Phonebook app. This is a project for the C# Academy course.
 You can view, add, update and delete contacts.
